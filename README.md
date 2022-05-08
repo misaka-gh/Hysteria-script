@@ -2,6 +2,8 @@
 
 Hysteria 一键脚本，支持IPv4、IPv6 VPS
 
+> 注意⚠：部分VPS提供商会对使用Hysteria的VPS实行封号策略，请谨慎部署和使用！
+
 ## 使用方法
 
 ```shell
