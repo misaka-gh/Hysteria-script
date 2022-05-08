@@ -43,3 +43,7 @@ wget -N https://raw.githubusercontents.com/Misaka-blog/Hysteria-script/master/hy
 Hysteria：https://github.com/HyNetwork/hysteria
 
 YouTube 不良林：https://www.youtube.com/watch?v=pMe_oErfLWQ
+
+## Stargazers over time
+
+[![Stargazers over time](https://starchart.cc/Misaka-blog/Hysteria-script.svg)](https://starchart.cc/Misaka-blog/Hysteria-script)
