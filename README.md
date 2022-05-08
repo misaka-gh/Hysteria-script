@@ -10,6 +10,10 @@ wget -N https://raw.githubusercontents.com/Misaka-blog/Hysteria-script/master/hy
 
 快捷方式 `bash hysteria.sh`
 
+## 脚本预览
+
+![image](https://user-images.githubusercontent.com/96560028/167276086-3163d533-cff1-4b08-8245-f3d0ad4fa24e.png)
+
 ## 参考资料
 
 Hysteria：https://github.com/HyNetwork/hysteria
