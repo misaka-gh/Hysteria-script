@@ -14,6 +14,30 @@ wget -N https://raw.githubusercontents.com/Misaka-blog/Hysteria-script/master/hy
 
 ![image](https://user-images.githubusercontent.com/96560028/167276086-3163d533-cff1-4b08-8245-f3d0ad4fa24e.png)
 
+## 客户端连接教程
+
+1. 在 Hysteria 的 [Release 页面](https://github.com/HyNetwork/hysteria/releases)，根据自己的架构下载对应的程序
+
+![image](https://user-images.githubusercontent.com/96560028/167276169-c24e2db7-7e39-45dc-aba9-127f1a48f01a.png)
+
+2. 把脚本生成的 `client.json` 和 Hysteria 主程序放到同一目录下
+
+![image](https://user-images.githubusercontent.com/96560028/167276200-f4e3cbd5-ce26-481b-9a55-cd159a92385d.png)
+
+3. 打开命令行，输入以下命令（以Windows为例）
+
+```bat
+.\hysteria-tun-windows-6.0-amd64.exe -c client.json client
+```
+
+4. 如图所示，即可代表 Hysteria 客户端已成功运行。**切记不能直接关闭！！！**
+
+![image](https://user-images.githubusercontent.com/96560028/167276127-2a2f7693-3d08-4a1e-a5ba-8031a8a4c4b2.png)
+
+5. 在 V2rayN 上添加一个 Socks5 节点，然后使用 V2rayN 连接
+
+![image](https://user-images.githubusercontent.com/96560028/167276239-9d4b9fbf-8b97-43ea-8313-96ad05ead039.png)
+
 ## 参考资料
 
 Hysteria：https://github.com/HyNetwork/hysteria
