@@ -46,6 +46,10 @@ Hysteria：https://github.com/HyNetwork/hysteria
 
 YouTube 不良林：https://www.youtube.com/watch?v=pMe_oErfLWQ
 
-## Stargazers over time
+## 交流
+
+[Telegram 群组](https://t.me/misakanetcn)
+
+## Star 增长记录
 
 [![Stargazers over time](https://starchart.cc/Misaka-blog/Hysteria-script.svg)](https://starchart.cc/Misaka-blog/Hysteria-script)
