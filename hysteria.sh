@@ -38,6 +38,8 @@ for ((int = 0; int < ${#REGEX[@]}; int++)); do
     [[ $(echo "$SYS" | tr '[:upper:]' '[:lower:]') =~ ${REGEX[int]} ]] && SYSTEM="${RELEASE[int]}" && [[ -n $SYSTEM ]] && break
 done
 
+[[ $EUID -ne 0 ]] && red "请在root用户下运行脚本" && exit 1
+
 IP=$(curl -s6m8 ip.sb) || IP=$(curl -s4m8 ip.sb)
 
 if [[ -n $(echo $IP | grep ":") ]]; then
