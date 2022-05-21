@@ -244,7 +244,7 @@ uninstall(){
     systemctl stop hysteria
     systemctl disable hysteria
     rm -rf /root/Hysteria
-    rm -f /usr/bin/hysteria
+    rm -f /usr/bin/hysteria /usr/local/bin/hy
     rm -f /etc/systemd/system/hysteria.service
     green "Hysteria 卸载完成！"
 }
