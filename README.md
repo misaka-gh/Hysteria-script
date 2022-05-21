@@ -24,7 +24,7 @@ V2rayN: https://owo.misaka.rest/Hysteria-V2rayN/
 
 ## 带宽设置优化建议
 
-在生成的`config.json`文件中，`up_mbps`为上传速度，`down_mbps`为下载速度
+在生成的`client.json`文件中，`up_mbps`为上传速度，`down_mbps`为下载速度
 
 建议设置如下：
 
