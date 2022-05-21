@@ -4,8 +4,6 @@ Hysteria 一键脚本，支持IPv4、IPv6 VPS
 
 > 注意⚠：部分VPS提供商会对部署Hysteria的VPS实例实行封号等处理策略，请谨慎部署和使用！
 
-更新：Sagernet / Shadowrocket 一键分享链接
-
 ## 使用方法
 
 ```shell
