@@ -141,6 +141,7 @@ EOF
     "http": {
         "listen": "127.0.0.1:1081"
     }
+    url="hysteria://$IP:$PORT?auth=#OBFS&upmbps=20&downmbps=100&obfs=xplus&obfsParam=#OBFS"
 }
 EOF
     cat <<'TEXT' > /etc/systemd/system/hysteria.service
