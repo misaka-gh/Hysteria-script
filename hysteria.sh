@@ -1,14 +1,14 @@
 #!/bin/bash
 
-red() {
+red(){
     echo -e "\033[31m\033[01m$1\033[0m"
 }
 
-green() {
+green(){
     echo -e "\033[32m\033[01m$1\033[0m"
 }
 
-yellow() {
+yellow(){
     echo -e "\033[33m\033[01m$1\033[0m"
 }
 
@@ -20,7 +20,7 @@ PLAIN='\033[0m'
 # 判断系统及定义系统安装依赖方式
 REGEX=("debian" "ubuntu" "centos|red hat|kernel|oracle linux|alma|rocky" "'amazon linux'")
 RELEASE=("Debian" "Ubuntu" "CentOS" "CentOS")
-PACKAGE_UPDATE=("apt -y update" "apt -y update" "yum -y update" "yum -y update")
+PACKAGE_UPDATE=("apt-get -y update" "apt-get -y update" "yum -y update" "yum -y update")
 PACKAGE_INSTALL=("apt -y install" "apt -y install" "yum -y install" "yum -y install")
 PACKAGE_REMOVE=("apt -y remove" "apt -y remove" "yum -y remove" "yum -y remove")
 PACKAGE_UNINSTALL=("apt -y autoremove" "apt -y autoremove" "yum -y autoremove" "yum -y autoremove")
@@ -216,6 +216,7 @@ installHysteria() {
     if [[ -n $(service hysteria status 2>/dev/null | grep "inactive") ]]; then
         red "Hysteria 服务器安装失败"
     elif [[ -n $(service hysteria status 2>/dev/null | grep "active") ]]; then
+        show_usage
         green "Hysteria 服务器安装成功"
         yellow "服务器配置文件已保存到 /root/Hysteria/server.json"
         yellow "客户端配置文件已保存到 /root/Hysteria/client.json"
@@ -305,6 +306,18 @@ net.ipv6.conf.lo.disable_ipv6 = 0" >>/etc/sysctl.d/99-sysctl.conf
     green "开启IPv6结束，可能需要重启！"
 }
 
+show_usage(){
+    echo "Hysteria 脚本快捷指令使用方法: "
+    echo "------------------------------------------"
+    echo "hy              - 显示管理菜单 (功能更多)"
+    echo "hy install      - 安装 Hysteria"
+    echo "hy uninstall    - 卸载 Hysteria"
+    echo "hy on           - 启动 Hysteria"
+    echo "hy off          - 关闭 Hysteria"
+    echo "hy restart      - 重启 Hysteria"
+    echo "------------------------------------------"
+}
+
 menu() {
     clear
     check_status
@@ -347,14 +360,19 @@ menu() {
     esac
 }
 
+if [[ ! -f /usr/local/bin/hy ]]; then
+    cp Hysteria /usr/local/bin/hy
+    chmod +x /usr/local/bin/hy
+fi
+
 if [[ $# > 0 ]]; then
     case $1 in
         install ) installHysteria ;;
         uninstall ) uninstall ;;
-        start ) start_hysteria ;;
+        on ) start_hysteria ;;
+        off ) stop_hysteria ;;
         restart ) restart ;;
-        stop ) stop_hysteria ;;
-        * ) menu ;;
+        * ) show_usage ;;
     esac
 else
     menu
