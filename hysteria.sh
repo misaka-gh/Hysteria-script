@@ -169,13 +169,11 @@ installBBR() {
     result=$(lsmod | grep bbr)
     if [[ $result != "" ]]; then
         green "BBR模块已安装"
-        INSTALL_BBR=false
         return
     fi
     res=`systemd-detect-virt`
     if [[ $res =~ openvz|lxc ]]; then
         red "由于你的VPS为OpenVZ或LXC架构的VPS，跳过安装"
-        INSTALL_BBR=false
         return
     fi
     
@@ -185,7 +183,6 @@ installBBR() {
     result=$(lsmod | grep bbr)
     if [[ "$result" != "" ]]; then
         green "BBR模块已启用"
-        INSTALL_BBR=false
         return
     fi
 
@@ -197,12 +194,10 @@ installBBR() {
         ${PACKAGE_REMOVE[int]} kernel-3.*
         grub2-set-default 0
         echo "tcp_bbr" >> /etc/modules-load.d/modules.conf
-        INSTALL_BBR=true
     else
         ${PACKAGE_INSTALL[int]} --install-recommends linux-generic-hwe-16.04
         grub-set-default 0
         echo "tcp_bbr" >> /etc/modules-load.d/modules.conf
-        INSTALL_BBR=true
     fi
 }
 
