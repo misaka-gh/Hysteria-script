@@ -141,7 +141,6 @@ EOF
     "http": {
         "listen": "127.0.0.1:1081"
     }
-    url="hysteria://$IP:$PORT?auth=#OBFS&upmbps=20&downmbps=100&obfs=xplus&obfsParam=#OBFS"
 }
 EOF
     cat <<'TEXT' > /etc/systemd/system/hysteria.service
@@ -158,6 +157,7 @@ WorkingDirectory=/root/Hysteria
 ExecStart=/usr/bin/hysteria -c /root/Hysteria/server.json server
 Restart=always
 TEXT
+    url="hysteria://$IP:$PORT?auth=#OBFS&upmbps=20&downmbps=100&obfs=xplus&obfsParam=#OBFS"
 }
 
 installBBR() {
@@ -186,13 +186,13 @@ installBBR() {
 
     green "正在安装BBR模块..."
     if [[ $SYSTEM = "CentOS" ]]; then
-            rpm --import https://www.elrepo.org/RPM-GPG-KEY-elrepo.org
-            rpm -Uvh http://www.elrepo.org/elrepo-release-7.0-4.el7.elrepo.noarch.rpm
-            ${PACKAGE_INSTALL[int]} --enablerepo=elrepo-kernel kernel-ml
-            ${PACKAGE_REMOVE[int]} kernel-3.*
-            grub2-set-default 0
-            echo "tcp_bbr" >> /etc/modules-load.d/modules.conf
-            INSTALL_BBR=true
+        rpm --import https://www.elrepo.org/RPM-GPG-KEY-elrepo.org
+        rpm -Uvh http://www.elrepo.org/elrepo-release-7.0-4.el7.elrepo.noarch.rpm
+        ${PACKAGE_INSTALL[int]} --enablerepo=elrepo-kernel kernel-ml
+        ${PACKAGE_REMOVE[int]} kernel-3.*
+        grub2-set-default 0
+        echo "tcp_bbr" >> /etc/modules-load.d/modules.conf
+        INSTALL_BBR=true
     else
         ${PACKAGE_INSTALL[int]} --install-recommends linux-generic-hwe-16.04
         grub-set-default 0
