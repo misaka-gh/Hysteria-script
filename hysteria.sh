@@ -136,6 +136,21 @@ EOF
     "up_mbps": 200,
     "down_mbps": 1000,
     "insecure": true,
+    "socks5": {
+        "listen": "127.0.0.1:10808"
+    },
+    "http": {
+        "listen": "127.0.0.1:10809"
+    }
+}
+EOF
+    cat <<EOF > /root/Hysteria/v2rayn.json
+{
+    "server": "$IP:$PORT",
+    "obfs": "$OBFS",
+    "up_mbps": 200,
+    "down_mbps": 1000,
+    "insecure": true,
     "acl": "acl/routes.acl",
     "mmdb": "acl/Country.mmdb",
     "retry": 3,
@@ -220,6 +235,7 @@ installHysteria() {
         green "Hysteria 服务器安装成功"
         yellow "服务器配置文件已保存到 /root/Hysteria/server.json"
         yellow "客户端配置文件已保存到 /root/Hysteria/client.json"
+        yellow "V2rayN 配置文件已保存到 /root/Hysteria/v2rayn.json"
         yellow "SagerNet / ShadowRocket 分享链接: "
         green "$url"
     fi
