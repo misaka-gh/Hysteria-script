@@ -157,7 +157,7 @@ WorkingDirectory=/root/Hysteria
 ExecStart=/usr/bin/hysteria -c /root/Hysteria/server.json server
 Restart=always
 TEXT
-    url="hysteria://$IP:$PORT?auth=#OBFS&upmbps=20&downmbps=100&obfs=xplus&obfsParam=#OBFS"
+    url="hysteria://$IP:$PORT?auth=$OBFS&upmbps=20&downmbps=100&obfs=xplus&obfsParam=$OBFS"
 }
 
 installBBR() {
