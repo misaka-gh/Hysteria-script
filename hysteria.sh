@@ -138,6 +138,8 @@ EOF
     "insecure": true,
     "acl": "acl/routes.acl",
     "mmdb": "acl/Country.mmdb",
+    "retry": 3,
+    "retry_interval": 5,
     "socks5": {
         "listen": "127.0.0.1:1080"
     },
