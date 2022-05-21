@@ -1,0 +1,28 @@
+name: Fetch ACL
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Fetch latest rulelist 
+        run: |
+          cd acl
+          rm -f Country.mmdb routes.acl updatelog.txt
+          python3 GetRoutes.py
+          echo "Updated: $(date)" > updatelog.txt
+          cd ..
+      - name: Git uploading
+        env:
+          GIT_USERNAME: ${{ secrets.GIT_USERNAME }}
+          GIT_EMAIL: ${{ secrets.GIT_EMAIL }}
+        run: |
+          git config --global user.email "$GIT_EMAIL"
+          git config --global user.name "$GIT_USERNAME"
+          git add .
+          git commit -m "Uploaded by Github Actions, Date: $(date)"
+          git push
