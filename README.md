@@ -22,6 +22,17 @@ wget -N https://raw.githubusercontents.com/Misaka-blog/Hysteria-script/master/hy
 
 V2rayN: https://owo.misaka.rest/Hysteria-V2rayN/
 
+## 带宽设置优化建议
+
+在生成的`config.json`文件中，`up_mbps`为上传速度，`down_mbps`为下载速度
+
+建议设置如下：
+
+上传速度：本地宽带速率 / 5
+下载速度：本地宽带速率
+
+![image](https://user-images.githubusercontent.com/96560028/169646250-605e05ac-78ed-41f3-9ea9-942ba26a151e.png)
+
 ## 参考资料
 
 Hysteria：https://github.com/HyNetwork/hysteria
