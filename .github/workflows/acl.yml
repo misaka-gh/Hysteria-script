@@ -37,8 +37,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GIT_TOKEN }}
         with:
-          tag_name: acltest
-          release_name: acltest
+          tag_name: $(date +"%Y-%m-%d")
+          release_name: $(date +"%Y-%m-%d")
           draft: false
           prerelease: false
       - name: Upload Release Asset
