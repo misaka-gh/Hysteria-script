@@ -16,7 +16,9 @@ wget -N https://raw.githubusercontents.com/Misaka-blog/Hysteria-script/master/hy
 
 ## 脚本预览
 
-![image](https://user-images.githubusercontent.com/96560028/167280089-e1754f00-c33f-4c71-a877-39c81596c6bd.png)
+![image](https://user-images.githubusercontent.com/96560028/169633663-41807686-9284-4ce9-819d-74652957f038.png)
+
+![image](https://user-images.githubusercontent.com/96560028/169633677-ec8243a1-b005-4265-8d98-5858a2f33c0c.png)
 
 ## 客户端连接教程
 
