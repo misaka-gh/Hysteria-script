@@ -240,6 +240,10 @@ restart(){
     green "Hysteria 已重启！"
 }
 
+view_log(){
+    service hysteria status
+}
+
 uninstall(){
     systemctl stop hysteria
     systemctl disable hysteria
@@ -315,6 +319,7 @@ show_usage(){
     echo "hy on           - 启动 Hysteria"
     echo "hy off          - 关闭 Hysteria"
     echo "hy restart      - 重启 Hysteria"
+    echo "hy log          - 查看 Hysteria 日志"
     echo "------------------------------------------"
 }
 
@@ -337,25 +342,27 @@ menu() {
     echo -e "  ${GREEN}3.${PLAIN}  启动Hysieria "
     echo -e "  ${GREEN}4.${PLAIN}  重启Hysieria "
     echo -e "  ${GREEN}5.${PLAIN}  停止Hysieria "
+    echo -e "  ${GREEN}6.${PLAIN}  查看Hysieria日志 "
     echo " -------------"
-    echo -e "  ${GREEN}6.${PLAIN}  启用IPv6 "
-    echo -e "  ${GREEN}7.${PLAIN}  禁用IPv6 "
-    echo -e "  ${GREEN}8.${PLAIN}  放行防火墙端口 "
+    echo -e "  ${GREEN}7.${PLAIN}  启用IPv6 "
+    echo -e "  ${GREEN}8.${PLAIN}  禁用IPv6 "
+    echo -e "  ${GREEN}9.${PLAIN}  放行防火墙端口 "
     echo " -------------"
     echo -e "  ${GREEN}0.${PLAIN} 退出"
     echo ""
     echo -e "Hysteria 状态：$status"
     echo ""
-    read -p " 请选择操作[0-8]：" answer
+    read -p " 请选择操作[0-9]：" answer
     case $answer in
         1) installHysteria ;;
         2) uninstall ;;
         3) start_hysteria ;;
         4) restart ;;
         5) stop_hysteria ;;
-        6) openipv6 ;;
-        7) closeipv6 ;;
-        8) open_ports ;;
+        6) view_log ;;
+        7) openipv6 ;;
+        8) closeipv6 ;;
+        9) open_ports ;;
         *) red "请选择正确的操作！" && exit 1 ;;
     esac
 }
@@ -372,6 +379,7 @@ if [[ $# > 0 ]]; then
         on ) start_hysteria ;;
         off ) stop_hysteria ;;
         restart ) restart ;;
+        log ) view_log ;;
         * ) show_usage ;;
     esac
 else
