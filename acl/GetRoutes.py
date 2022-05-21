@@ -4,10 +4,10 @@ import urllib.request
 from datetime import date
 
 domain_black = urllib.request.urlopen(
-    'https://raw.githubusercontent.com/emptysuns/daily/gh-pages/gfwlist/gfwlist.txt'
+    'https://raw.githubusercontent.com/Misaka-blog/daily/gh-pages/gfwlist/gfwlist.txt'
 )
 domain_block = urllib.request.urlopen(
-    'https://raw.githubusercontent.com/emptysuns/daily/gh-pages/adlist/adlist.txt'
+    'https://raw.githubusercontent.com/Misaka-blog/daily/gh-pages/adlist/adlist.txt'
 )
 
 urllib.request.urlretrieve(
