@@ -361,7 +361,7 @@ menu() {
 }
 
 if [[ ! -f /usr/local/bin/hy ]]; then
-    cp Hysteria /usr/local/bin/hy
+    cp hysteria.sh /usr/local/bin/hy
     chmod +x /usr/local/bin/hy
 fi
 
