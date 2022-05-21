@@ -169,7 +169,7 @@ installBBR() {
     fi
     res=`systemd-detect-virt`
     if [[ $res =~ openvz|lxc ]]; then
-        colorEcho $BLUE "由于你的VPS为OpenVZ或LXC架构的VPS，跳过安装"
+        red "由于你的VPS为OpenVZ或LXC架构的VPS，跳过安装"
         INSTALL_BBR=false
         return
     fi
