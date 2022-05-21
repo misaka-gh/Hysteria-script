@@ -11,7 +11,7 @@ domain_block = urllib.request.urlopen(
 )
 
 urllib.request.urlretrieve(
-        'https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/Country.mmdb', './Country.mmdb'
+    'https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/Country.mmdb', './Country.mmdb'
 )
 
 with open('routes.acl', 'w') as f:
