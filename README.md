@@ -10,7 +10,16 @@ Hysteria 一键脚本，支持IPv4、IPv6 VPS
 wget -N https://raw.githubusercontents.com/Misaka-blog/Hysteria-script/master/hysteria.sh && bash hysteria.sh
 ```
 
-快捷方式 `bash hysteria.sh`
+### 快捷指令
+
+|  命令   | 备注 |
+|  ----  | ---- |
+| hy | 脚本管理菜单 |
+| hy install | 安装Hysteria |
+| hy uninstall | 卸载Hysteria |
+| hy on | 启动Hysteria |
+| hy off | 启动Hysteria |
+| hy restart | 重启Hysteria |
 
 ## 脚本预览
 
