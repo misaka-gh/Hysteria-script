@@ -137,10 +137,10 @@ EOF
     "down_mbps": 1000,
     "insecure": true,
     "socks5": {
-        "listen": "127.0.0.1:10808"
+        "listen": "127.0.0.1:1080"
     },
     "http": {
-        "listen": "127.0.0.1:10809"
+        "listen": "127.0.0.1:1081"
     }
 }
 EOF
