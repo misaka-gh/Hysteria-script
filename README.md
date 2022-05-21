@@ -15,11 +15,12 @@ wget -N https://raw.githubusercontents.com/Misaka-blog/Hysteria-script/master/hy
 |  命令   | 备注 |
 |  ----  | ---- |
 | hy | 脚本管理菜单 |
-| hy install | 安装Hysteria |
-| hy uninstall | 卸载Hysteria |
-| hy on | 启动Hysteria |
-| hy off | 关闭Hysteria |
-| hy restart | 重启Hysteria |
+| hy install | 安装 Hysteria |
+| hy uninstall | 卸载 Hysteria |
+| hy on | 启动 Hysteria |
+| hy off | 关闭 Hysteria |
+| hy restart | 重启 Hysteria |
+| hy log | 查看 Hysteria 日志 |
 
 ## 脚本预览
 
