@@ -18,7 +18,7 @@ wget -N https://raw.githubusercontents.com/Misaka-blog/Hysteria-script/master/hy
 | hy install | 安装Hysteria |
 | hy uninstall | 卸载Hysteria |
 | hy on | 启动Hysteria |
-| hy off | 启动Hysteria |
+| hy off | 关闭Hysteria |
 | hy restart | 重启Hysteria |
 
 ## 脚本预览
