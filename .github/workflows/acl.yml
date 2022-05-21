@@ -2,6 +2,8 @@ name: Fetch ACL
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "0 22 * * *"
 
 jobs:
   build:
