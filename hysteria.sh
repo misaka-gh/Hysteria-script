@@ -95,6 +95,7 @@ install_base() {
 }
 
 downloadHysteria() {
+    rm -f /usr/bin/hysteria
     rm -rf /root/Hysteria
     mkdir /root/Hysteria
     last_version=$(curl -Ls "https://api.github.com/repos/HyNetwork/Hysteria/releases/latest" | grep '"tag_name":' | sed -E 's/.*"([^"]+)".*/\1/')
