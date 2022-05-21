@@ -136,6 +136,8 @@ EOF
     "up_mbps": 200,
     "down_mbps": 1000,
     "insecure": true,
+    "acl": "acl/routes.acl",
+    "mmdb": "acl/Country.mmdb",
     "socks5": {
         "listen": "127.0.0.1:1080"
     },
