@@ -32,7 +32,7 @@ wget -N https://raw.githubusercontents.com/Misaka-blog/Hysteria-script/master/hy
 
 新版V2rayN: https://owo.misaka.rest/Hysteria-V2rayN/
 
-### 官方命令行教程
+### 官方命令行连接教程
 
 1. 在 Hysteria 的 [Release 页面](https://github.com/HyNetwork/hysteria/releases)，根据自己的架构下载对应的程序
 
