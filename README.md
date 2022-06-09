@@ -63,6 +63,7 @@ wget -N https://raw.githubusercontents.com/Misaka-blog/Hysteria-script/master/hy
 建议设置如下：
 
 上传速度：本地宽带速率 / 5
+
 下载速度：本地宽带速率
 
 ![image](https://user-images.githubusercontent.com/96560028/169646250-605e05ac-78ed-41f3-9ea9-942ba26a151e.png)
