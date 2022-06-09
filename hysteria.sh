@@ -1,5 +1,10 @@
 #!/bin/bash
 
+RED="\033[31m"
+GREEN="\033[32m"
+YELLOW="\033[33m"
+PLAIN='\033[0m'
+
 red(){
     echo -e "\033[31m\033[01m$1\033[0m"
 }
@@ -11,11 +16,6 @@ green(){
 yellow(){
     echo -e "\033[33m\033[01m$1\033[0m"
 }
-
-RED="\033[31m"
-GREEN="\033[32m"
-YELLOW="\033[33m"
-PLAIN='\033[0m'
 
 # 判断系统及定义系统安装依赖方式
 REGEX=("debian" "ubuntu" "centos|red hat|kernel|oracle linux|alma|rocky" "'amazon linux'")
@@ -344,10 +344,13 @@ menu() {
     check_status
 
     echo "#############################################################"
-    echo -e "#                 ${RED} Hysteria  一键安装脚本${PLAIN}                   #"
+    echo -e "#                   ${RED}Hysteria  一键安装脚本${PLAIN}                  #"
     echo -e "# ${GREEN}作者${PLAIN}: Misaka No                                           #"
-    echo -e "# ${GREEN}网址${PLAIN}: https://owo.misaka.rest                             #"
+    echo -e "# ${GREEN}博客${PLAIN}: https://owo.misaka.rest                             #"
     echo -e "# ${GREEN}论坛${PLAIN}: https://vpsgo.co                                    #"
+    echo -e "# ${GREEN}GitHub${PLAIN}: https://github.com/Misaka-blog                    #"
+    echo -e "# ${GREEN}Bitbucket${PLAIN}: https://bitbucket.org/misakano7545             #"
+    echo -e "# ${GREEN}GitLab${PLAIN}: https://gitlab.com/misaka-blog                    #"
     echo -e "# ${GREEN}TG群${PLAIN}: https://t.me/misakanetcn                            #"
     echo "#############################################################"
     echo ""
