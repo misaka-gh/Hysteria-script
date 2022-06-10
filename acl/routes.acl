@@ -1,6 +1,6 @@
 # Author:github.com/emptysuns
 # routes
-# Generated on June 09, 2022
+# Generated on June 10, 2022
 
 block domain-suffix t.co
 block domain-suffix doubleclick.net
@@ -10,6 +10,7 @@ block domain-suffix hehighursoo.com
 block domain-suffix outbrain.com
 block domain-suffix googlesyndication.com
 block domain-suffix videocampaign.co
+block domain-suffix supersedeforbes.com
 block domain-suffix inflectionquake.com
 block domain-suffix cuddlethehyena.com
 block domain-suffix clickbank.com
@@ -49,6 +50,7 @@ block domain-suffix hetaruvg.com
 block domain-suffix shareasale.com
 block domain-suffix itskiddoan.club
 block domain-suffix taghaugh.com
+block domain-suffix profitablecpmgate.com
 block domain-suffix adfpoint.com
 block domain-suffix safestgatetocontent.com
 block domain-suffix a-ads.com
@@ -692,6 +694,7 @@ block domain-suffix omniture.com
 block domain-suffix azoaltou.com
 block domain-suffix aso1.net
 block domain-suffix anstrex.com
+block domain-suffix throun.com
 block domain-suffix ojrq.net
 block domain-suffix moat.com
 block domain-suffix joomxer.fun
@@ -723,6 +726,7 @@ block domain-suffix afshanthough.pro
 block domain-suffix pd-news.com
 block domain-suffix userreplay.net
 block domain-suffix trafficdok.com
+block domain-suffix surnamesubqueryaloft.com
 block domain-suffix adcell.de
 block domain-suffix adspyglass.com
 block domain-suffix pippio.com
@@ -858,6 +862,7 @@ block domain-suffix oxynticarkab.com
 block domain-suffix pdvacde.com
 block domain-suffix inspectlet.com
 block domain-suffix convertmb.com
+block domain-suffix dgzhbvifnjo.com
 block domain-suffix spanuletubings.com
 block domain-suffix itnuzleafan.com
 block domain-suffix youtubecenter.net
@@ -876,6 +881,7 @@ block domain-suffix pubmine.com
 block domain-suffix eshouloo.net
 block domain-suffix korgiejoinyou.com
 block domain-suffix fuseplatform.net
+block domain-suffix inheritedfinnishdysfunctional.com
 block domain-suffix rhythmone.com
 block domain-suffix luxope.com
 block domain-suffix mastermind.com
@@ -936,6 +942,7 @@ block domain-suffix fastcdn.info
 block domain-suffix quokkacheeks.com
 block domain-suffix yulunanews.name
 block domain-suffix dimessing-parker.com
+block domain-suffix qqaskpbofrji.com
 block domain-suffix cuculf.name
 block domain-suffix acuityads.com
 block domain-suffix coarsewary.com
@@ -1141,6 +1148,7 @@ block domain-suffix miva.com
 block domain-suffix rusenov.com
 block domain-suffix hawkyeye5ssnd.com
 block domain-suffix tsiwqtng8huauw30n.com
+block domain-suffix dienesasides.com
 block domain-suffix alxbgo.com
 block domain-suffix truehits.net
 block domain-suffix sitemaji.com
@@ -1407,6 +1415,7 @@ block domain-suffix extremiu.top
 block domain-suffix hydragrouge.com
 block domain-suffix phultems.net
 block domain-suffix dpbolvw.net
+block domain-suffix gempeety.com
 block domain-suffix uponelectabuzzor.club
 block domain-suffix sharpsharkteeth.com
 block domain-suffix fisher56.com
@@ -1435,6 +1444,8 @@ block domain-suffix hibids10.com
 block domain-suffix rev-stripe.com
 block domain-suffix adsemo.com
 block domain-suffix centralheat.net
+block domain-suffix fbmklibvrroltd.com
+block domain-suffix kindleloving.com
 block domain-suffix gletsokr.com
 block domain-suffix adstargets.com
 block domain-suffix aaxads.com
@@ -1584,6 +1595,7 @@ block domain-suffix onclickmega.com
 block domain-suffix adition.com
 block domain-suffix adservicemedia.dk
 block domain-suffix steadyclutchimpression.com
+block domain-suffix aerialmistaken.com
 block domain-suffix anxiouslyconsistencytearing.com
 block domain-suffix cluethydash.com
 block domain-suffix contextweb.com
@@ -8536,14 +8548,16 @@ block domain-suffix segment-data-us-east.zqtk.net
 block domain-suffix beacon.ztgame.com
 block domain-suffix zwaar.org
 block domain-suffix log-collector.svctr.zynga.com
-block domain-suffix 666574.xyz
-block domain-suffix dyzx6688.top
+block domain-suffix jrhbhz.com
+block domain-suffix awsxc.live
+block domain-suffix jtrgzj9.com
+block domain-suffix 666576.xyz
+block domain-suffix u0065.com
 block domain-suffix 00-gov.cn
 block domain-suffix 000123456789.site
 block domain-suffix 0024aaaa.com
 block domain-suffix 008844.cc
 block domain-suffix 00xvppy.cn
-block domain-suffix vue-js.cyou
 block domain-suffix 01fen.com
 block domain-suffix 022aifang.com
 block domain-suffix 025613.com
@@ -8732,6 +8746,7 @@ block domain-suffix 6185059.com
 block domain-suffix 643226.com
 block domain-suffix 6438905.com
 block domain-suffix 65tgh.com
+block domain-suffix 666574.xyz
 block domain-suffix 666666666666.site
 block domain-suffix 66996.top
 block domain-suffix 66997.top
@@ -9208,6 +9223,7 @@ block domain-suffix dy886.cn
 block domain-suffix dyssir.com
 block domain-suffix dyx0878.cn
 block domain-suffix dyxsmj.net
+block domain-suffix dyzx6688.top
 block domain-suffix dzjzg.com
 block domain-suffix dzletao.com
 block domain-suffix dzxwnews.com
@@ -9499,7 +9515,6 @@ block domain-suffix hxlif.com
 block domain-suffix hxnzyy.com
 block domain-suffix hxssj.cn
 block domain-suffix hxtwl.cn
-block domain-suffix hxwygsk2.xyz
 block domain-suffix hxyifu.com
 block domain-suffix hxyx360.com
 block domain-suffix hyhfimgg.com
@@ -9558,8 +9573,6 @@ block domain-suffix iyptc.cn
 block domain-suffix ja9377.com
 block domain-suffix jacquelinelaura.com
 block domain-suffix javase.top
-block domain-suffix jb2v9sv.shop
-block domain-suffix jb2v9sv.world
 block domain-suffix jb9vtov.xyz
 block domain-suffix jbyy010.com
 block domain-suffix jcelyj.com
@@ -9641,7 +9654,6 @@ block domain-suffix jsmwd.com
 block domain-suffix jssxpb.cn
 block domain-suffix jsyzw132.com
 block domain-suffix jtdxz.top
-block domain-suffix jtj7tq6c.xyz
 block domain-suffix jtkshop.net
 block domain-suffix junfull.com
 block domain-suffix junkucm.com
@@ -9700,7 +9712,6 @@ block domain-suffix kolinay.com
 block domain-suffix koukou7.com
 block domain-suffix kq7it3c6.club
 block domain-suffix kq7it3c6.xyz
-block domain-suffix kqiekmsq.world
 block domain-suffix kqvkvc3.com
 block domain-suffix kt220.com
 block domain-suffix ktdlsb.com
@@ -10358,6 +10369,7 @@ block domain-suffix vns3359.com
 block domain-suffix voocl.com
 block domain-suffix vt863.cn
 block domain-suffix vtfwgfo.cn
+block domain-suffix vue-js.cyou
 block domain-suffix vxsnk.com
 block domain-suffix vyjhr.cn
 block domain-suffix w65p.com
@@ -10611,7 +10623,6 @@ block domain-suffix youhehuixiangxinxi.top
 block domain-suffix yousee.com
 block domain-suffix youyouf.top
 block domain-suffix youyoumw.com
-block domain-suffix youzonggw.com
 block domain-suffix ypa.focusoftime.com
 block domain-suffix ypmob.com
 block domain-suffix yqgjq.com
@@ -11023,7 +11034,6 @@ block domain-suffix 3338808.com
 block domain-suffix 5551895.com
 block domain-suffix wofjhs.com
 block domain-suffix xayah.date
-block domain-suffix cpro.zol.com.cn
 block domain-suffix 003store.com
 block domain-suffix 1.01fy.cn
 block domain-suffix 1.07swz.com
@@ -11344,6 +11354,7 @@ block domain-suffix cp.jfcdns.com
 block domain-suffix cp.qbaobei.com
 block domain-suffix cpro.bdrmb.cn
 block domain-suffix cpro.xixiliya.cn
+block domain-suffix cpro.zol.com.cn
 block domain-suffix crayon.meishichina.com
 block domain-suffix cspb1.5w5w.com
 block domain-suffix css.juqingba.cn
@@ -11823,13 +11834,26 @@ block domain-suffix jpg1.oss-cn-beijing.aliyuncs.com
 block domain-suffix jun01.oss-cn-beijing.aliyuncs.com
 block domain-suffix shaquevip.oss-cn-zhangjiakou.aliyuncs.com
 block domain-suffix wzjs1.oss-accelerate.aliyuncs.com
+block domain-suffix jianjianjiao.top
+block domain-suffix lwxqaq.club
+block domain-suffix haitaochen.xyz
+block domain-suffix a19cd.xyz
+block domain-suffix zhuomengwangluo.com
+block domain-suffix yue78.online
+block domain-suffix chenhao.name
+block domain-suffix guoyu.link
+block domain-suffix princesses.asia
+block domain-suffix uniworldgroup.asia
+block domain-suffix merrrrrry.top
+block domain-suffix yping.online
+block domain-suffix myuosid.cn
+block domain-suffix tianyao.site
 block domain-suffix edetlmb.cn
 block domain-suffix gzww.site
-block domain-suffix uniworldgroup.asia
-block domain-suffix guoyu.link
-block domain-suffix chenhao.name
-block domain-suffix princesses.asia
-block domain-suffix haitaochen.xyz
+block domain-suffix bestnfq.com
+block domain-suffix hpkqtd.com
+block domain-suffix hdw0.top
+block domain-suffix jsk.wang
 block domain-suffix 000123456789.online
 block domain-suffix 000123456789.space
 block domain-suffix 01tn.cn
@@ -16301,7 +16325,6 @@ block domain-suffix youliangyouxian.xyz
 block domain-suffix youngalsobeautiful.com
 block domain-suffix youpeng.pw
 block domain-suffix youpukeji.cn
-block domain-suffix youre123.com
 block domain-suffix youshouge513.cn
 block domain-suffix youtome.xyz
 block domain-suffix youweiprint.com
@@ -16506,7 +16529,6 @@ block domain-suffix zhongxiangjin.vip
 block domain-suffix zhongyongbao.vip
 block domain-suffix zhongzizye.cn
 block domain-suffix zhoumo.site
-block domain-suffix zhouqin520.top
 block domain-suffix zhouyi.cool
 block domain-suffix zhouziwang.cn
 block domain-suffix zhpfl.cn
@@ -16975,6 +16997,7 @@ block domain-suffix 5f249e1d30.com
 block domain-suffix 5f2eafd708.com
 block domain-suffix 5f6dmzflgqso.com
 block domain-suffix 5faad595f4.com
+block domain-suffix 5fcc5e7d92.com
 block domain-suffix 5nt1gx7o57.com
 block domain-suffix 5qg9ibt1a6.com
 block domain-suffix 5t59uw2iuh.com
@@ -17345,6 +17368,7 @@ block domain-suffix actressact.com
 block domain-suffix actrkn.com
 block domain-suffix actuallysheep.com
 block domain-suffix aculdi.com
+block domain-suffix acustomfaeries.com
 block domain-suffix acweb.online
 block domain-suffix acxjepzmvqycf.com
 block domain-suffix acybrccvwoftb.com
@@ -18687,6 +18711,7 @@ block domain-suffix bargaret.club
 block domain-suffix bargedoctarch.com
 block domain-suffix barkierrevives.com
 block domain-suffix barnabaslinger.com
+block domain-suffix barneysunsharp.com
 block domain-suffix baronrydaters.com
 block domain-suffix barricadefurrydrinks.com
 block domain-suffix bars2show.com
@@ -19224,6 +19249,8 @@ block domain-suffix breedom.club
 block domain-suffix breedtagask.com
 block domain-suffix brgvlyaccixnbnu.xyz
 block domain-suffix bridgetrack.com
+block domain-suffix briefcroakapprentice.com
+block domain-suffix briefsupbuoy.com
 block domain-suffix brighteroption.com
 block domain-suffix brightonclick.com
 block domain-suffix brightoverwhelm.com
@@ -19239,6 +19266,7 @@ block domain-suffix bro3.biz
 block domain-suffix bro4.biz
 block domain-suffix broadcastingdeliberateverification.com
 block domain-suffix broadlystipulate.com
+block domain-suffix brocardcored.com
 block domain-suffix broced.co
 block domain-suffix brodmn.com
 block domain-suffix broidensordini.com
@@ -19384,6 +19412,7 @@ block domain-suffix c44wergiu87heghoconutdx.com
 block domain-suffix c4f40bce0b.com
 block domain-suffix c50021876c67fd14.com
 block domain-suffix c5b39ff13b3259df.com
+block domain-suffix c5b8d9d52f.com
 block domain-suffix c63d72a4022.com
 block domain-suffix c7e4d34b2afc3.com
 block domain-suffix c8141c728b.com
@@ -19733,8 +19762,10 @@ block domain-suffix cho7932105co3l2ate3covere53d.com
 block domain-suffix choanabethump.com
 block domain-suffix chobsang.net
 block domain-suffix chocohjuanfhdhf.com
+block domain-suffix choksail.com
 block domain-suffix cholosfuhrer.com
 block domain-suffix chonenusi.com
+block domain-suffix choobinoobi.com
 block domain-suffix choogeet.net
 block domain-suffix chookamookla.com
 block domain-suffix chooksee.net
@@ -20547,6 +20578,7 @@ block domain-suffix daredstrapelinor.com
 block domain-suffix darersan.co
 block domain-suffix daringprobablywithin.com
 block domain-suffix darkenedshrine.com
+block domain-suffix darleygamball.cfd
 block domain-suffix dartarscuspids.casa
 block domain-suffix dartoverboardcoupon.com
 block domain-suffix dasfelynsaterr.webcam
@@ -20651,6 +20683,7 @@ block domain-suffix deeperindoorsrestriction.com
 block domain-suffix deepmetrix.com
 block domain-suffix deewansturacin.com
 block domain-suffix defaceproudlybarnacle.com
+block domain-suffix defeak.com
 block domain-suffix defeature.xyz
 block domain-suffix defeaturesher.club
 block domain-suffix defenseaspirinlike.com
@@ -21226,6 +21259,7 @@ block domain-suffix dvypar.com
 block domain-suffix dwarfsubmerge.com
 block domain-suffix dwaterver.xyz
 block domain-suffix dwepmhhyigfb.com
+block domain-suffix dwirow.com
 block domain-suffix dxpxlt.com
 block domain-suffix dxrzzmhwdp.com
 block domain-suffix dycej.com
@@ -21506,6 +21540,7 @@ block domain-suffix elfcoexistbird.com
 block domain-suffix elfinsande.website
 block domain-suffix elfirkelk.com
 block domain-suffix elfshipfish.casa
+block domain-suffix elicitsfoozle.com
 block domain-suffix elinorparcel.com
 block domain-suffix elizabethclowneasy.com
 block domain-suffix elizaguarapo.com
@@ -21607,6 +21642,7 @@ block domain-suffix enterads.com
 block domain-suffix entertainedshook.com
 block domain-suffix enthaitingsh.one
 block domain-suffix enthusiasmturnipflare.com
+block domain-suffix enthusiasticsabotage.com
 block domain-suffix entiregraterfurs.com
 block domain-suffix entmassaul.com
 block domain-suffix entmatchw.top
@@ -22545,6 +22581,7 @@ block domain-suffix gatesbelievesgentlemen.com
 block domain-suffix gatetocontent.com
 block domain-suffix gatetodisplaycontent.com
 block domain-suffix gatetotrustednetwork.com
+block domain-suffix gatheringtherealiases.com
 block domain-suffix gaulauvi.net
 block domain-suffix gaupremob.cf
 block domain-suffix gauvaiho.net
@@ -24216,6 +24253,7 @@ block domain-suffix johays.co
 block domain-suffix joicky.com
 block domain-suffix joinnowinstantly.com
 block domain-suffix jojdvmcgjdt.com
+block domain-suffix jojome.xyz
 block domain-suffix jokelibellous.com
 block domain-suffix jolecyclist.com
 block domain-suffix jolic2.com
@@ -24931,6 +24969,7 @@ block domain-suffix limitesrifer.com
 block domain-suffix limitlessexterminator.com
 block domain-suffix limporaltourist.com
 block domain-suffix limpstronglyer.com
+block domain-suffix linaloabatches.com
 block domain-suffix linealmalling.com
 block domain-suffix lingerstored.com
 block domain-suffix linicom.co.il
@@ -25068,6 +25107,7 @@ block domain-suffix lorimertoned.com
 block domain-suffix lornardchr.club
 block domain-suffix lorybnfh.com
 block domain-suffix losingoldfry.com
+block domain-suffix lotionmodule.com
 block domain-suffix lotsnippier.cam
 block domain-suffix lotteryaffiliates.com
 block domain-suffix lotteryhibernateauthorized.com
@@ -26000,6 +26040,7 @@ block domain-suffix napesropes.com
 block domain-suffix nappybedcandid.com
 block domain-suffix napsiguk.com
 block domain-suffix naptaush.com
+block domain-suffix narior.com
 block domain-suffix narkalignevil.com
 block domain-suffix narrowperennialaffable.com
 block domain-suffix narsap.com
@@ -26625,6 +26666,7 @@ block domain-suffix ojpem.com
 block domain-suffix ojpweezvce.com
 block domain-suffix ojwejqeqvxn.xyz
 block domain-suffix okayarab.com
+block domain-suffix okayfreemanknot.com
 block domain-suffix okdigital.me
 block domain-suffix okeydumping.com
 block domain-suffix okhfyyfgw.com
@@ -27669,6 +27711,7 @@ block domain-suffix prayuserparka.com
 block domain-suffix prbtqjujwzwepv.com
 block domain-suffix prdredir.com
 block domain-suffix precautionbuoy.com
+block domain-suffix precessfetidly.com
 block domain-suffix precisetackle.com
 block domain-suffix precisionclick.com
 block domain-suffix predicamentsorting.com
@@ -28000,6 +28043,7 @@ block domain-suffix puptyvocho.com
 block domain-suffix pupulodsects.cam
 block domain-suffix purchasertormentscoundrel.com
 block domain-suffix puresinew.com
+block domain-suffix purgma.com
 block domain-suffix purpleflag.net
 block domain-suffix purpreine.co
 block domain-suffix purveystiralee.com
@@ -28569,6 +28613,7 @@ block domain-suffix resalag.com
 block domain-suffix resawsmas.com
 block domain-suffix reschedulewizards.com
 block domain-suffix rescuephrase.com
+block domain-suffix resemblanceilluminatedcigarettes.com
 block domain-suffix resentmentveneering.com
 block domain-suffix reservehearingmissing.com
 block domain-suffix residebroadly.com
@@ -29032,6 +29077,7 @@ block domain-suffix sabaistsubmit.com
 block domain-suffix sabredwillble.com
 block domain-suffix sabs-push.xyz
 block domain-suffix sabsmismake.casa
+block domain-suffix sacdon.com
 block domain-suffix sackswaycheese.com
 block domain-suffix sacralcabaa.com
 block domain-suffix sadassemblybladder.com
@@ -29410,6 +29456,7 @@ block domain-suffix shriekdestitute.com
 block domain-suffix shrillbeatintimidating.com
 block domain-suffix shrillbighearted.com
 block domain-suffix shrimpsqueezed.com
+block domain-suffix shrinkmesh.com
 block domain-suffix shrugartisticelder.com
 block domain-suffix shrugglefor.com
 block domain-suffix shsswdrhs.com
@@ -29600,6 +29647,7 @@ block domain-suffix snaglighter.com
 block domain-suffix snammar-jumntal.com
 block domain-suffix snarecathedrallipstick.com
 block domain-suffix snarlleadenpsychology.com
+block domain-suffix snarlsevres.com
 block domain-suffix snatchweedswimsuit.com
 block domain-suffix snavey.com
 block domain-suffix sneakystamp.com
@@ -30071,6 +30119,7 @@ block domain-suffix sumbalowen.com
 block domain-suffix sumlessbelat.com
 block domain-suffix summaryflamen.com
 block domain-suffix summonedessencetrap.com
+block domain-suffix sunburnquasars.com
 block domain-suffix sundayceremonytitanic.com
 block domain-suffix sundersetrgh.site
 block domain-suffix sunglasseslollipopoperating.com
@@ -30184,6 +30233,7 @@ block domain-suffix system-notify.app
 block domain-suffix systemleadb.com
 block domain-suffix systerwithing.info
 block domain-suffix sysxezolnaxavw.com
+block domain-suffix sytwyhdpmqsj.xyz
 block domain-suffix syxcwxur.com
 block domain-suffix syxylyche.pro
 block domain-suffix szoiuthrlzpdi.com
@@ -30211,6 +30261,7 @@ block domain-suffix tailapsi.com
 block domain-suffix taisowhu.com
 block domain-suffix takeoverpushy.com
 block domain-suffix takiparkrb.site
+block domain-suffix takychasing.com
 block domain-suffix talbotthrall.com
 block domain-suffix talk4anyone.com
 block domain-suffix talkingdom.club
@@ -30661,6 +30712,7 @@ block domain-suffix totallifeguru.com
 block domain-suffix totalnicefeed.com
 block domain-suffix totalwownews.com
 block domain-suffix totentacruelor.com
+block domain-suffix totfrvpotdp.com
 block domain-suffix tothisimpo.biz
 block domain-suffix totlnkbn.com
 block domain-suffix totogetica.com
@@ -31772,6 +31824,7 @@ block domain-suffix wasanasset.xyz
 block domain-suffix washabeach.com
 block domain-suffix washedinmate.com
 block domain-suffix washingfueltorn.com
+block domain-suffix washpiggyabdomen.com
 block domain-suffix wasp-182b.com
 block domain-suffix waspaortascene.com
 block domain-suffix wasprenovate.com
@@ -33234,6 +33287,7 @@ block domain-suffix d3pvcolmug0tz6.cloudfront.net
 block domain-suffix d3q33rbmdkxzj.cloudfront.net
 block domain-suffix d3qinhqny4thfo.cloudfront.net
 block domain-suffix d3qu0b872n4q3x.cloudfront.net
+block domain-suffix d3rjndf2qggsna.cloudfront.net
 block domain-suffix d3rp5jatom3eyn.cloudfront.net
 block domain-suffix d3rxqouo2bn71j.cloudfront.net
 block domain-suffix d3t3lxfqz2g5hs.cloudfront.net
@@ -34903,6 +34957,7 @@ block domain-suffix flexbanner.com
 block domain-suffix flimsycircle.com
 block domain-suffix flimsythought.com
 block domain-suffix floodprincipal.com
+block domain-suffix floweryflavor.com
 block domain-suffix flowgo.com
 block domain-suffix fly-analytics.com
 block domain-suffix foo.cosmocode.de
@@ -35136,7 +35191,6 @@ block domain-suffix kpu.samsungelectronics.com
 block domain-suffix ktu.sv2.biz
 block domain-suffix kubient.com
 block domain-suffix l1.britannica.com
-block domain-suffix l6b587txj1.com
 block domain-suffix lameletters.com
 block domain-suffix larati.net
 block domain-suffix laughablecopper.com
@@ -35207,6 +35261,9 @@ block domain-suffix logs.spilgames.com
 block domain-suffix logsss.com
 block domain-suffix logua.com
 block domain-suffix longinglettuce.com
+block domain-suffix look.djfiln.com
+block domain-suffix look.ichlnk.com
+block domain-suffix look.opskln.com
 block domain-suffix look.ufinkln.com
 block domain-suffix lop.com
 block domain-suffix loudlunch.com
@@ -36085,6 +36142,7 @@ block domain-suffix typicalteeth.com
 block domain-suffix uarating.com
 block domain-suffix ucfunnel.com
 block domain-suffix udkcrj.com
+block domain-suffix udncoeln.com
 block domain-suffix uib.ff.avast.com
 block domain-suffix ultimateclixx.com
 block domain-suffix ultramercial.com
