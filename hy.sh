@@ -115,6 +115,14 @@ downloadHysteria() {
 makeConfig() {
     read -rp "请输入 Hysteria 的连接端口（默认：40000）：" PORT
     [[ -z $PORT ]] && PORT=40000
+    if [[ -n $(netstat -ntlp | grep "$PORT") ]]; then
+        until [[ -z $(netstat -ntlp | grep "$PORT") ]]; do
+            if [[ -n $(netstat -ntlp | grep "$PORT") ]]; then
+                yellow "你设置的端口目前已被占用，请重新输入端口"
+                read -rp "请输入 Hysteria 的连接端口（默认：40000）：" PORT
+            fi
+        done
+    fi
     read -rp "请输入 Hysteria 的连接混淆密码（默认随机生成）：" OBFS
     [[ -z $OBFS ]] && OBFS=$(date +%s%N | md5sum | cut -c 1-32)
     sysctl -w net.core.rmem_max=4000000
