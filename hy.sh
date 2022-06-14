@@ -60,7 +60,7 @@ check_tun(){
 checkCentOS8(){
     if [[ -n $(cat /etc/os-release | grep "CentOS Linux 8") ]]; then
         yellow "检测到当前VPS系统为CentOS 8，是否升级为CentOS Stream 8以确保软件包正常安装？"
-        read -p "请输入选项 [y/n]：" comfirmCentOSStream
+        read -rp "请输入选项 [y/n]：" comfirmCentOSStream
         if [[ $comfirmCentOSStream == "y" ]]; then
             yellow "正在为你升级到CentOS Stream 8，大概需要10-30分钟的时间"
             sleep 1
@@ -113,9 +113,9 @@ downloadHysteria() {
 }
 
 makeConfig() {
-    read -p "请输入 Hysteria 的连接端口（默认：40000）：" PORT
+    read -rp "请输入 Hysteria 的连接端口（默认：40000）：" PORT
     [[ -z $PORT ]] && PORT=40000
-    read -p "请输入 Hysteria 的连接混淆密码（默认随机生成）：" OBFS
+    read -rp "请输入 Hysteria 的连接混淆密码（默认随机生成）：" OBFS
     [[ -z $OBFS ]] && OBFS=$(date +%s%N | md5sum | cut -c 1-32)
     sysctl -w net.core.rmem_max=4000000
     ulimit -n 1048576 && ulimit -u unlimited
@@ -220,7 +220,7 @@ installHysteria() {
     checkCentOS8
     install_base
     downloadHysteria
-    read -p "是否安装BBR（y/n，默认n）：" INSTALL_BBR_YN
+    read -rp "是否安装BBR（y/n，默认n）：" INSTALL_BBR_YN
     if [[ $INSTALL_BBR_YN =~ "y"|"Y" ]]; then
         installBBR
     fi
@@ -369,7 +369,7 @@ menu() {
     echo ""
     echo -e "Hysteria 状态：$status"
     echo ""
-    read -p " 请选择操作[0-9]：" answer
+    read -rp " 请选择操作[0-9]：" answer
     case $answer in
         1) installHysteria ;;
         2) uninstall ;;
