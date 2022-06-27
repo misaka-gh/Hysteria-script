@@ -391,7 +391,7 @@ menu() {
     echo -e "  ${GREEN}8.${PLAIN}  禁用IPv6 "
     echo -e "  ${GREEN}9.${PLAIN}  放行防火墙端口 "
     echo " -------------"
-    echo -e "  ${GREEN}10.${PLAIN}  更新Hysteria"
+    echo -e "  ${GREEN}10.${PLAIN}  更新Hysteria内核版本"
     echo " -------------"
     echo -e "  ${GREEN}0.${PLAIN} 退出"
     echo ""
