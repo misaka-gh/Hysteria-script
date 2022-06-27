@@ -27,7 +27,7 @@ PACKAGE_UNINSTALL=("apt -y autoremove" "apt -y autoremove" "yum -y autoremove" "
 
 [[ $EUID -ne 0 ]] && red "请在root用户下运行脚本" && exit 1
 
-CMD=("$(grep -i pretty_name /etc/os-release 2>/dev/null | cut -d \" -f2)" "$(hostnamectl 2>/dev/null | grep -i system | cut -d : -f2)" "$(lsb_release -sd 2>/dev/null)" "$(grep -i description /etc/lsb-release 2>/dev/null | cut -d \" -f2)" "$(grep . /etc/redhat-release 2>/dev/null)" "$(grep . /etc/issue 2>/dev/null | cut -d \\ -f1 | sed '/^[ ]*$/d')") 
+CMD=("$(grep -i pretty_name /etc/os-release 2>/dev/null | cut -d \" -f2)" "$(hostnamectl 2>/dev/null | grep -i system | cut -d : -f2)" "$(lsb_release -sd 2>/dev/null)" "$(grep -i description /etc/lsb-release 2>/dev/null | cut -d \" -f2)" "$(grep . /etc/redhat-release 2>/dev/null)" "$(grep . /etc/issue 2>/dev/null | cut -d \\ -f1 | sed '/^[ ]*$/d')")
 
 for i in "${CMD[@]}"; do
     SYS="$i" && [[ -n $SYS ]] && break
@@ -51,7 +51,7 @@ check_tun(){
         if [[ $vpsvirt == "openvz" ]]; then
             wget -N --no-check-certificate https://raw.githubusercontents.com/Misaka-blog/tun-script/master/tun.sh && bash tun.sh
         else
-            red "检测到未开启TUN模块，请到VPS控制面板处开启" 
+            red "检测到未开启TUN模块，请到VPS控制面板处开启"
             exit 1
         fi
     fi
@@ -209,7 +209,7 @@ installBBR() {
         green "BBR模块已启用"
         return
     fi
-
+    
     green "正在安装BBR模块..."
     if [[ $SYSTEM = "CentOS" ]]; then
         rpm --import https://www.elrepo.org/RPM-GPG-KEY-elrepo.org
@@ -241,10 +241,11 @@ installHysteria() {
         red "Hysteria 服务器安装失败"
     elif [[ -n $(service hysteria status 2>/dev/null | grep "active") ]]; then
         show_usage
-        green "Hysteria 服务器安装成功"
+        echo ""
+        green "Hysteria 服务器已安装成功"
         yellow "服务器配置文件已保存到 /root/Hysteria/server.json"
         yellow "客户端配置文件已保存到 /root/Hysteria/client.json"
-        yellow "V2rayN 代理规则分流配置文件已保存到 /root/Hysteria/v2rayn.json"
+        yellow "V2rayN 带代理规则分流配置文件已保存到 /root/Hysteria/v2rayn.json"
         yellow "SagerNet / ShadowRocket 分享链接: "
         green "$url"
     fi
@@ -270,6 +271,16 @@ update_core(){
     last_version=$(curl -Ls "https://data.jsdelivr.com/v1/package/resolve/gh/HyNetwork/Hysteria" | grep '"version":' | sed -E 's/.*"([^"]+)".*/\1/')
     if [[ $last_version == $current_version ]]; then
         green "当前Hysteria内核已为最新版本，无需再次更新! "
+    else
+        systemctl stop hysteria
+        rm -f /usr/bin/hysteria
+        wget -N --no-check-certificate https://github.com/HyNetwork/Hysteria/releases/download/v${last_version}/Hysteria-tun-linux-$(archAffix) -O /usr/bin/hysteria
+        if [[ $? -ne 0 ]]; then
+            red "下载 Hysteria 失败，请确保你的服务器能够连接并下载 Github 的文件"
+            exit 1
+        fi
+        chmod +x /usr/bin/hysteria
+        systemctl start hysteria
     fi
 }
 
@@ -321,7 +332,7 @@ closeipv6() {
     sed -i '/net.ipv6.conf.lo.disable_ipv6/d' /etc/sysctl.conf
     echo "net.ipv6.conf.all.disable_ipv6 = 1
 net.ipv6.conf.default.disable_ipv6 = 1
-net.ipv6.conf.lo.disable_ipv6 = 1" >>/etc/sysctl.d/99-sysctl.conf
+    net.ipv6.conf.lo.disable_ipv6 = 1" >>/etc/sysctl.d/99-sysctl.conf
     sysctl --system
     green "禁用IPv6结束，可能需要重启！"
 }
@@ -335,7 +346,7 @@ openipv6() {
     sed -i '/net.ipv6.conf.lo.disable_ipv6/d' /etc/sysctl.conf
     echo "net.ipv6.conf.all.disable_ipv6 = 0
 net.ipv6.conf.default.disable_ipv6 = 0
-net.ipv6.conf.lo.disable_ipv6 = 0" >>/etc/sysctl.d/99-sysctl.conf
+    net.ipv6.conf.lo.disable_ipv6 = 0" >>/etc/sysctl.d/99-sysctl.conf
     sysctl --system
     green "开启IPv6结束，可能需要重启！"
 }
