@@ -360,6 +360,7 @@ show_usage(){
     echo "hy on           - 启动 Hysteria"
     echo "hy off          - 关闭 Hysteria"
     echo "hy restart      - 重启 Hysteria"
+    echo "hy update       - 更新 Hysteria"
     echo "hy log          - 查看 Hysteria 日志"
     echo "------------------------------------------"
 }
@@ -389,6 +390,8 @@ menu() {
     echo -e "  ${GREEN}7.${PLAIN}  启用IPv6 "
     echo -e "  ${GREEN}8.${PLAIN}  禁用IPv6 "
     echo -e "  ${GREEN}9.${PLAIN}  放行防火墙端口 "
+    echo " -------------"
+    echo -e "  ${GREEN}10.${PLAIN}  更新Hysteria"
     echo " -------------"
     echo -e "  ${GREEN}0.${PLAIN} 退出"
     echo ""
@@ -422,6 +425,7 @@ if [[ $# > 0 ]]; then
         off ) stop_hysteria ;;
         restart ) restart ;;
         log ) view_log ;;
+        update ) update_core ;;
         * ) show_usage ;;
     esac
 else
