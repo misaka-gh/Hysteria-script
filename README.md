@@ -7,7 +7,7 @@ Hysteria 一键脚本，支持IPv4、IPv6 VPS
 ## 使用方法
 
 ```shell
-wget -N https://raw.githubusercontents.com/Misaka-blog/Hysteria-script/master/hysteria.sh && bash hysteria.sh
+wget -N https://raw.githubusercontents.com/misaka-gh/Hysteria-script/master/hysteria.sh && bash hysteria.sh
 ```
 
 ### 快捷指令
@@ -80,4 +80,4 @@ YouTube 不良林：https://www.youtube.com/watch?v=pMe_oErfLWQ
 
 ## Stars 增长记录
 
-[![Stargazers over time](https://starchart.cc/Misaka-blog/Hysteria-script.svg)](https://starchart.cc/Misaka-blog/Hysteria-script)
+[![Stargazers over time](https://starchart.cc/misaka-ghHysteria-script.svg)](https://starchart.cc/misaka-gh/Hysteria-script)
